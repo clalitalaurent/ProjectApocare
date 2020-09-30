@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/replyforumStyle.css">
+    <script src="../JS/replyforumScript.js"></script>
+    <title>Forum</title>
+</head>
+<body>
+    <div class="header">
+        <img src="../IMG/logo.png" alt="">
+    </div>
+
+    <div class="navigation">
+        <div class="home">
+            <a href="../index.html">Home</a>
+        </div>
+        <div class="regis">
+            <a href="regis.html">Registration</a>
+        </div>
+        <div class="login">
+            <a href="login.html">Login</a>
+        </div>
+        <div class="feedback">
+            <a href="feedback.html">Feedback</a>
+        </div>
+        <div class="rating">
+            <a href="rating.html">Rating</a>
+        </div>
+        <div class="forum">
+            <a href="forum.html">Forum</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            R E P L Y 
+        </div>
+        <br>
+        <hr>
+        <div class="form">
+            <form name="formForum"  method="post" onsubmit="return forumForm()"
+            onload="document.formForum.nama.focus()">
+                <div>
+                    <textarea name="isi" id="isi" placeholder="" style="height: 150px;"></textarea>
+                </div>
+                <p></p>
+                <br>
+                <input class = "button" type="button" value="Reply" onclick="forumForm()">
+            </form>
+        </div>
+        <!-- <div class="desc">
+            Apocare hadir untuk membantu Anda. Sebagai apotek online terlengkap, Apocare menyediakan kebutuhan obat-obatan rutin, obat dengan resep, vitamin dan suplemen, alat kesehatan serta produk-produk kesehatan lainnya secara aman dan terpercaya.<br>
+            Sementara Anda dapat beristirahat di rumah, tim Apocare akan bekerja untuk memenuhi kebutuhan kesehatan Anda. <br>
+            <ul style="list-style-type: square;">
+                <li>Apocare hanya bekerjasama dengan Apotek dan Toko/Merchant resmi yang berijin, yang telah dikenal masyarakat secara luas.</li>
+                <li>Merchant kami telah menjamin hanya menjual produk resmi dan berkualitas.</li>
+                <li>Pembayaran Anda ke Merchant menggunakan rekening resmi Apocare, melalui e-payment gateway yang aman dan terpercaya, sehingga pembayaran Anda akan aman bersama kami.</li>
+                <li>Pengiriman produk dilakukan oleh vendor ekspedisi pihak ketiga yang terpercaya. Ada pilihan kiriman instan, reguler ataupun luar kota untuk produk-produk tertentu.</li>
+            </ul>   
+            Selamat mencoba! Kami siap melayani Anda! <br>
+            Segera belanja di Apocare, apotek online terpercaya dan terlengkap. Kami akan bantu temukan solusi setiap masalah kesehatan Anda! <br> <br> 
+            <hr>
+        </div>
+        <div class="desc2">
+            Silahkan login terlebih dahulu, ya! <br> Jika belum memiliki akun, silahkan lakukan pendaftaran dengan meng-klik button Registration. 
+        </div>
+        <br>
+        <div class="button">
+            <a href="regis.html" class="regisbt">Registration</a>
+            <a href="login.html" class="loginbt">Login</a>
+        </div> -->
+    </div>
+
+    <div class="footer">
+        <div class="footertext">
+            COPYRIGHT &copy;2020 APOCARE COORPERATION. ALL RIGHT RESERVED.
+        </div>
+    </div>
+</body>
+</html>

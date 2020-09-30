@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #b31b1b;
+}
+
+.header img{
+    height: 100px;
+}
+
+.header{
+    padding-left: 580px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #122348;
+    padding: 20px;
+}
+
+.home a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.regis a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.feedback a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.rating a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.forum a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.content{
+    /* margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    color: #122348; */
+    background-color: #122348;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: inline-block;
+    height: auto;
+    width: 750px;
+    padding-top : 15px;
+    padding-bottom: 50px;
+    opacity: 95%;
+    line-height: 30px;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.form
+{
+    margin-top: 50px;
+    /* margin-right: 600px; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text
+{
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-style: grey;
+    width: 500px;
+    height: 30px;
+}
+
+textarea
+{
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-style: grey;
+    width: 500px;
+    height: 50px;
+}
+
+.rating-star{
+    direction: rtl;
+}
+
+.rating-star input{
+    display: none;
+}
+
+.rating-star label{
+    display: inline-block;
+    width: 80px;
+    position: relative;
+    cursor: pointer;
+}
+
+.rating-star label:before{
+    content: "\2605";
+    position: absolute;
+    font-size: 80px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.rating-star label:after{
+    content: "\2605";
+    position: absolute;
+    font-size: 80px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: #b31b1b;
+    opacity: 0;
+}
+
+.rating-star label:hover:after,
+.rating-star label:hover ~ label:after,
+.rating-star input:checked ~ label:after{
+    opacity: 1;
+}
+
+.button
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: #b31b1b;
+}
+
+
+/* .desc{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.desc2{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.regisbt{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    background-color: #b31b1b;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid #c2c2c2;
+    border-radius:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loginbt{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    background-color: #b31b1b;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid #c2c2c2;
+    border-radius:10px;
+    text-align: center;
+    font-weight: bold;
+} */
+
+.footer{
+    display: flex;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    background-color: #122348;
+    color: white;
+    justify-content: center;
+}
+
+.footertext{
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
